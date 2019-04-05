@@ -12,6 +12,14 @@
 		93B277812257E3BE009C6E2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B2777F2257E3BE009C6E2A /* Main.storyboard */; };
 		93B277832257E3BF009C6E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B277822257E3BF009C6E2A /* Assets.xcassets */; };
 		93B277862257E3BF009C6E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B277842257E3BF009C6E2A /* LaunchScreen.storyboard */; };
+		93B2778E2257E47F009C6E2A /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B2778D2257E47F009C6E2A /* MyCustomCell.swift */; };
+		93B277942257ECEC009C6E2A /* NewYork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B2778F2257ECEB009C6E2A /* NewYork.jpg */; };
+		93B277952257ECEC009C6E2A /* Paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B277902257ECEC009C6E2A /* Paris.jpg */; };
+		93B277962257ECEC009C6E2A /* Tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B277912257ECEC009C6E2A /* Tokyo.jpg */; };
+		93B277972257ECEC009C6E2A /* Dubai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B277922257ECEC009C6E2A /* Dubai.jpg */; };
+		93B277982257ECEC009C6E2A /* London.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B277932257ECEC009C6E2A /* London.jpg */; };
+		93B2779A2257EE80009C6E2A /* Munich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B277992257EE80009C6E2A /* Munich.jpg */; };
+		93B2779C2257EEB1009C6E2A /* Zurich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93B2779B2257EEB0009C6E2A /* Zurich.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		93B277822257E3BF009C6E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B277852257E3BF009C6E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B277872257E3BF009C6E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B2778D2257E47F009C6E2A /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		93B2778F2257ECEB009C6E2A /* NewYork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NewYork.jpg; path = ../../../../../Downloads/NewYork.jpg; sourceTree = "<group>"; };
+		93B277902257ECEC009C6E2A /* Paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Paris.jpg; path = ../../../../../Downloads/Paris.jpg; sourceTree = "<group>"; };
+		93B277912257ECEC009C6E2A /* Tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tokyo.jpg; path = ../../../../../Downloads/Tokyo.jpg; sourceTree = "<group>"; };
+		93B277922257ECEC009C6E2A /* Dubai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dubai.jpg; path = ../../../../../Downloads/Dubai.jpg; sourceTree = "<group>"; };
+		93B277932257ECEC009C6E2A /* London.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = London.jpg; path = ../../../../../Downloads/London.jpg; sourceTree = "<group>"; };
+		93B277992257EE80009C6E2A /* Munich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Munich.jpg; path = ../../../../../Downloads/Munich.jpg; sourceTree = "<group>"; };
+		93B2779B2257EEB0009C6E2A /* Zurich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Zurich.jpg; path = ../../../../../Downloads/Zurich.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,14 @@
 				93B277822257E3BF009C6E2A /* Assets.xcassets */,
 				93B277842257E3BF009C6E2A /* LaunchScreen.storyboard */,
 				93B277872257E3BF009C6E2A /* Info.plist */,
+				93B2778D2257E47F009C6E2A /* MyCustomCell.swift */,
+				93B277922257ECEC009C6E2A /* Dubai.jpg */,
+				93B277932257ECEC009C6E2A /* London.jpg */,
+				93B2778F2257ECEB009C6E2A /* NewYork.jpg */,
+				93B277902257ECEC009C6E2A /* Paris.jpg */,
+				93B277992257EE80009C6E2A /* Munich.jpg */,
+				93B2779B2257EEB0009C6E2A /* Zurich.jpg */,
+				93B277912257ECEC009C6E2A /* Tokyo.jpg */,
 			);
 			path = Homework4;
 			sourceTree = "<group>";
@@ -122,8 +146,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B2779A2257EE80009C6E2A /* Munich.jpg in Resources */,
+				93B277962257ECEC009C6E2A /* Tokyo.jpg in Resources */,
+				93B277972257ECEC009C6E2A /* Dubai.jpg in Resources */,
 				93B277862257E3BF009C6E2A /* LaunchScreen.storyboard in Resources */,
+				93B277982257ECEC009C6E2A /* London.jpg in Resources */,
+				93B277952257ECEC009C6E2A /* Paris.jpg in Resources */,
+				93B277942257ECEC009C6E2A /* NewYork.jpg in Resources */,
 				93B277832257E3BF009C6E2A /* Assets.xcassets in Resources */,
+				93B2779C2257EEB1009C6E2A /* Zurich.jpg in Resources */,
 				93B277812257E3BE009C6E2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B2778E2257E47F009C6E2A /* MyCustomCell.swift in Sources */,
 				93B2777E2257E3BE009C6E2A /* ViewController.swift in Sources */,
 				93B2777C2257E3BE009C6E2A /* AppDelegate.swift in Sources */,
 			);
